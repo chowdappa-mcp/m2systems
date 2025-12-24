@@ -1,0 +1,21 @@
+:root{
+  --accent: #1f6feb;
+  --bg: #f7f9fc;
+  --sidebar-bg-top: #0b1220;
+  --sidebar-bg-bottom: #0f1724;
+  --sidebar-color: #ffffff;
+  --card-bg: #ffffff;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root { height: 100%; }
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--bg), #ffffff);
+  color: #0f1724;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
